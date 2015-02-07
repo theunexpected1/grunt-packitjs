@@ -1,0 +1,19 @@
+{
+  "name": "packit",
+  "version": "0.0.1",
+  "author": "Rahul Vagadiya <rahul.vagadiya@gmail.com>",
+  "description": "packit packs JS and CSS files with a lot of customizability",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theunexpected1/packit"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "packer": "0.0.5"
+  }
+}
