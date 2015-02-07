@@ -1,6 +1,6 @@
 {
   "name": "grunt-packitjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Rahul Vagadiya <rahul.vagadiya@gmail.com>",
   "description": "grunt-packitjs packs JS and CSS files with a lot of customizability",
   "repository": {
