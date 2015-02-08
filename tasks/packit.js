@@ -17,7 +17,7 @@ module.exports = function(grunt){
 		// ~0 log processing time
 		var startTime = (new Date()).getTime(),
 		pkg = grunt.file.readJSON(__dirname + "/../package.json");
-		var banner = '/*! ' + (pkg.title || pkg.name) + ' - v' + pkg.version + ' - ' + '' + grunt.template.today("yyyy-mm-dd") + '\n' + '' + '' + ' * Copyright (c) ' + grunt.template.today("yyyy") + ' ' + pkg.author + '; */\n';
+		var banner = '/*! ' + (pkg.title || pkg.name) + ' - v' + pkg.version + ' - ' + '' + grunt.template.today("yyyy-mm-dd") + '\n' + '' + '' + ' * Copyright (c) ' + grunt.template.today("yyyy") + ' ' + pkg.author.name + " <" + pkg.author.email + '>; */\n';
 		
 		// 1. Get options
 		var options = this.options({

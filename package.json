@@ -1,7 +1,10 @@
 {
   "name": "grunt-packitjs",
   "version": "1.0.0",
-  "author": "Rahul Vagadiya <rahul.vagadiya@gmail.com>",
+  "author": {
+    "name": "Rahul Vagadiya",
+    "email": "rahul.vagadiya@gmail.com"
+  },
   "description": "grunt-packitjs makes use of packer by Dean Edwards to pack JavaScript files efficiently.",
   "repository": {
     "type": "git",
