@@ -1,4 +1,4 @@
-# grunt-packitjs
+# grunt-packitjs [![Build Status](https://travis-ci.org/theunexpected1/grunt-packitjs.svg?branch=master)](https://travis-ci.org/theunexpected1/grunt-packitjs)
 
 This is a grunt plugin to make use of [/packer/](http://dean.edwards.name/packer/) by Dean Edwards to pack javaScript files efficiently.
 
