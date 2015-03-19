@@ -1,6 +1,6 @@
 {
   "name": "grunt-packitjs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": {
     "name": "Rahul Vagadiya",
     "email": "rahul.vagadiya@gmail.com"
@@ -11,6 +11,8 @@
     "compress",
     "jspack",
     "packjs",
+    "js",
+    "pack",
     "bundle",
     "concat",
     "grunt",
