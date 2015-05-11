@@ -50,7 +50,7 @@ module.exports = function(grunt){
 				// 2.1.3 conditionally compress the file
 				if(data.pack){
 					try{
-						fileContent = packer.pack(fileContent, 'Normal', options.base62, options.shrink);
+						fileContent = packer.pack(fileContent, options.base62, options.shrink);
 					} catch (e){
 						grunt.log.warn("Packing failed; just combining file(s)");
 					}
